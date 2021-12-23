@@ -24,6 +24,32 @@
   color: white;
 }
 
+.framecontentLeft{
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 50%; /*Width of left frame div*/
+  height: 100%;
+  overflow: hidden; /*Disable scrollbars. Set to "scroll" to enable*/
+  background-color: #F5F5F5;
+  color: black;
+  }
+  
+  .framecontentRight{
+  position: absolute; 
+  left: auto;
+  top: 0;
+  right: 0; 
+  width: 50%; /*Width of right frame div*/
+  overflow: scroll; /*Disable scrollbars. Set to "scroll" to enable*/
+  background-color:white;
+  color: black;
+  }
+
+.button {
+  grid-row: 4/5;
+  grid-column: 5/10;
+}
 .App-link {
   color: #61dafb;
 }
